@@ -22,8 +22,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(ENCH_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         switch(item) {
             case 'mongoose':
                 msg.channel.send('https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose\n\nGuild Members with this enchant:\nNone');
@@ -37,8 +37,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(BS_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         console.log(item);
         switch(item) {
             case 'special':
@@ -53,8 +53,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(JC_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         switch(item) {
             case 'special':
                 msg.channel.send('Jewelcrafting does not have specializations.');
@@ -65,8 +65,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(TAILOR_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         switch(item) {
             case 'special':
                 msg.channel.send('No specializations received yet.');
@@ -77,8 +77,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(ALCH_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         switch(item) {
             case 'special':
                 msg.channel.send('No specializations received yet.');
@@ -89,8 +89,8 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(ENG_PROFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
-        const item = args.shift().toLowerCase();
+        const args = msg.content.slice(ENCH_PREFIX.length);
+        const item = args.toLowerCase();
         switch(item) {
             case 'special':
                 msg.channel.send('No specializations received yet.');
