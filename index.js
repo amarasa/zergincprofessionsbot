@@ -39,6 +39,7 @@ client.on('message', msg => {
     if (msg.content.startsWith(BS_PREFIX)) {
         const args = msg.content.slice(ENCH_PREFIX.length).trim().split(/ +/);
         const item = args.shift().toLowerCase();
+        console.log(item);
         switch(item) {
             case 'special':
                 msg.channel.send('No specializations received yet.');
