@@ -37,9 +37,10 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(BS_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length);
+        const args = msg.content.slice(BS_PREFIX.length);
         const item = args.toLowerCase();
-        console.log(item);
+        console.log('item ' + item);
+
         switch(item) {
             case 'special':
                 msg.channel.send('No specializations received yet.');
@@ -53,7 +54,7 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(JC_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length);
+        const args = msg.content.slice(JC_PREFIX.length);
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
@@ -65,7 +66,7 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(TAILOR_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length);
+        const args = msg.content.slice(TAILOR_PREFIX.length);
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
@@ -77,7 +78,7 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(ALCH_PREFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length);
+        const args = msg.content.slice(ALCH_PREFIX.length);
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
@@ -89,7 +90,7 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(ENG_PROFIX)) {
-        const args = msg.content.slice(ENCH_PREFIX.length);
+        const args = msg.content.slice(ENG_PROFIX.length);
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
