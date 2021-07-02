@@ -41,7 +41,10 @@ client.on('message', msg => {
         const item = args.shift().toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+                msg.channel.send('No specializations received yet.');
+                break;
+            case 'wildguard helm':
+                msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm/n/nPlayers that can craft this:\nLyles');
                 break;
             default:
                 msg.channel.send('Item not found');
@@ -53,7 +56,7 @@ client.on('message', msg => {
         const item = args.shift().toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+                msg.channel.send('Jewelcrafting does not have specializations.');
                 break;
             default:
                 msg.channel.send('Item not found');
@@ -65,7 +68,7 @@ client.on('message', msg => {
         const item = args.shift().toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+                msg.channel.send('No specializations received yet.');
                 break;
             default:
                 msg.channel.send('Item not found');
@@ -77,7 +80,7 @@ client.on('message', msg => {
         const item = args.shift().toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+                msg.channel.send('No specializations received yet.');
                 break;
             default:
                 msg.channel.send('Item not found');
@@ -89,7 +92,7 @@ client.on('message', msg => {
         const item = args.shift().toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+                msg.channel.send('No specializations received yet.');
                 break;
             default:
                 msg.channel.send('Item not found');
