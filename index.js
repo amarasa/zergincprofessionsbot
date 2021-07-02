@@ -46,7 +46,7 @@ client.on('message', msg => {
                 msg.channel.send('No specializations received yet.');
                 break;
             case 'wildguard helm':
-                msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm/n/nPlayers that can craft this:\nLyles');
+                msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm /n/nPlayers that can craft this:\nLyles');
                 break;
             default:
                 msg.channel.send('Item not found');
