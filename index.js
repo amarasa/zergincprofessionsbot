@@ -60,6 +60,78 @@ client.on('message', msg => {
             case 'special':
                 msg.channel.send('Jewelcrafting does not have specializations.');
                 break;
+                case 'lustrous star of elune':
+                    msg.channel.send('https://tbc.wowhead.com/item=24037/lustrous-star-of-elune\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'solid star of elune':
+                    msg.channel.send('https://tbc.wowhead.com/item=24033/solid-star-of-elune\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'sparkling star of elune':
+                    msg.channel.send('https://tbc.wowhead.com/item=24035/sparkling-star-of-elune\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'jagged talasite':
+                    msg.channel.send('https://tbc.wowhead.com/item=24067/jagged-talasite\n\nPlayers that can craft this:\nLylès');
+                    break;     
+                case 'radiant talasite':
+                    msg.channel.send('https://tbc.wowhead.com/item=24066/radiant-talasite\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'chaotic skyfire diamond':
+                    msg.channel.send('https://tbc.wowhead.com/spell=44794/chaotic-skyfire-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;      
+                case 'enigmatic skyfire diamond':
+                    msg.channel.send('https://tbc.wowhead.com/item=25895/enigmatic-skyfire-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;      
+                case 'insightful earthstorm diamond':
+                    msg.channel.send('https://tbc.wowhead.com/item=25901/insightful-earthstorm-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'powerful earthstorm diamond':
+                    msg.channel.send('https://tbc.wowhead.com/item=25896/powerful-earthstorm-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'swift skyfire diamond':
+                    msg.channel.send('https://tbc.wowhead.com/item=25894/swift-skyfire-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'tenacious earthstorm diamond':
+                    msg.channel.send('https://tbc.wowhead.com/item=25898/tenacious-earthstorm-diamond\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'luminous noble topaz':
+                    msg.channel.send('https://tbc.wowhead.com/item=24060/luminous-noble-topaz\n\nPlayers that can craft this:\nLylès');
+                    break; 
+                case 'veiled noble topaz':
+                    msg.channel.send('https://tbc.wowhead.com/item=31867/veiled-noble-topaz\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'wicked noble topaz':
+                    msg.channel.send('https://tbc.wowhead.com/item=31868/wicked-noble-topaz\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'glowing nightseye':
+                    msg.channel.send('https://tbc.wowhead.com/item=24056/glowing-nightseye\n\nPlayers that can craft this:\nLylès');
+                    break; 
+                case 'royal nightseye':
+                    msg.channel.send('https://tbc.wowhead.com/item=24057/royal-nightseye\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'sovereign nightseye':
+                    msg.channel.send('https://tbc.wowhead.com/item=24054/sovereign-nightseye\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'delicate living ruby':
+                    msg.channel.send('https://tbc.wowhead.com/item=24028/delicate-living-ruby\n\nPlayers that can craft this:\nLylès');
+                    break;  
+                case 'flashing living ruby':
+                    msg.channel.send('https://tbc.wowhead.com/spell=31091/flashing-living-ruby\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'subtle living ruby':
+                    msg.channel.send('https://tbc.wowhead.com/item=24032/subtle-living-ruby\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'great dawnstone':
+                    msg.channel.send('https://tbc.wowhead.com/item=31861/great-dawnstone\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'mystic dawnstone':
+                    msg.channel.send('https://tbc.wowhead.com/item=24053/mystic-dawnstone\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'rigid dawnstone':
+                    msg.channel.send('https://tbc.wowhead.com/item=24051/rigid-dawnstone\n\nPlayers that can craft this:\nLylès');
+                    break;
+                case 'thick dawnstone':
+                    msg.channel.send('https://tbc.wowhead.com/item=24052/thick-dawnstone\n\nPlayers that can craft this:\nLylès');
+                    break;
             default:
                 msg.channel.send('Item not found');
         }
