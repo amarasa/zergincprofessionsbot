@@ -248,7 +248,6 @@ client.on('message', msg => {
     if (msg.content.startsWith(ALChTEST_PREFIX)) {
         const args = msg.content.slice(ALChTEST_PREFIX.length);
         const item = args.toLowerCase();
-        console.log('alchtest started');
 
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
@@ -278,7 +277,7 @@ client.on('message', msg => {
 
             //-- Get players that have the specialization in this consumable
             console.log(zergData.specialization.alchemy[craftType]);
-            console.log(zergData.specialization.alchemy[craftType].length);
+            console.log(zergData.specialization.alchemy['transmute'].length);
 
          } else {
              msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
