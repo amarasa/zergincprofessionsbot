@@ -256,7 +256,7 @@ client.on('message', msg => {
         if(item in zergData.professions.alchemy){
             let crafters = '';
             msg.channel.send(zergData.professions.alchemy[item].wowhead);
-            zergData.professions.alchemy['item'].players.forEach(player => {
+            zergData.professions.alchemy[item].players.forEach(player => {
                 crafters = crafters + ', ' + player;
             }); 
             msg.channel.send('Players with this recipe: '+ crafters);
