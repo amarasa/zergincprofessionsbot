@@ -276,8 +276,20 @@ client.on('message', msg => {
             msg.channel.send('Players with this recipe: '+ crafters);
 
             //-- Get players that have the specialization in this consumable
-            console.log(zergData.specialization.alchemy[craftType]);
-            console.log(zergData.specialization.alchemy['transmute'].length);
+            if (zergData.specialization.alchemy[craftType].length > 0) {
+                //-- Initiat an empty local varable that will contain the specialized crafter's names
+                let specializedCrafters = '';
+                
+                zergData.specialization.alchemy[craftType].forEach(player => {
+                    if (specializedCrafters.length == 0) {
+                        specializedCrafters = player;
+                    } else {
+                        specializedCrafters = specializedCrafters + ', ' + player;
+                    }
+                });
+
+                msg.channel.send('Players with '+ craftType.charAt(0).toUpperCase() + ' Specialization: ' + specializedCrafters);
+            }
 
          } else {
              msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
