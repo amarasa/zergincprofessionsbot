@@ -46,7 +46,7 @@ client.on('message', msg => {
 
         switch(item) {
             case 'special':
-                msg.channel.send('No specializations received yet.');
+                msg.channel.send('Axesmithing: None registered.\n\nSwordsmithing: None registered.\n\nHammersmithing: Lyles\nOrcbar\n\nArmorsmithing');
                 break;
             case 'wildguard helm':
                 msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm\n\nPlayers that can craft this:\nLyles');
@@ -73,6 +73,7 @@ client.on('message', msg => {
                 msg.channel.send('https://tbc.wowhead.com/item=23532/gauntlets-of-the-iron-tower\n\nPlayers that can craft this:\nLyles');
                 break;
             case 'helm of the stalwart defender':
+            case 'stalwart defender':
                 msg.channel.send('https://tbc.wowhead.com/item=23535/helm-of-the-stalwart-defender\n\nPlayers that can craft this:\nLyles');
                 break;
             case 'flamebane bracers':
@@ -208,7 +209,7 @@ client.on('message', msg => {
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
-                msg.channel.send('No specializations received yet.');
+                msg.channel.send('Elixir Master: Synderasis\n\nPotion Master: None Registered.\n\nTransmute Master: None registered\n');
                 break;
             default:
                 msg.channel.send('Item not found');
