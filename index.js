@@ -25,11 +25,14 @@ client.on('message', msg => {
         const args = msg.content.slice(ENCH_PREFIX.length);
         const item = args.toLowerCase();
         switch(item) {
+            case 'special':
+                msg.channel.send('Enchanting does not have specializations.');
+                break;
             case 'mongoose':
                 msg.channel.send('https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose\n\nGuild Members with this enchant:\nNone');
                 break;
-            case 'special':
-                msg.channel.send('Enchanting does not have specializations.');
+            case 'major defense':
+                msg.channel.send('https://tbc.wowhead.com/spell=27906/enchant-bracer-major-defense\n\nGuild Members with this enchant: \nLylès');
                 break;
             default:
                 msg.channel.send('Item not found');
@@ -47,6 +50,33 @@ client.on('message', msg => {
                 break;
             case 'wildguard helm':
                 msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'wildguard leggings':
+            case 'wildguard legs':
+                msg.channel.send('https://tbc.wowhead.com/spell=38475/wildguard-leggings\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'felsteel helm':
+                msg.channel.send('https://tbc.wowhead.com/spell=29621/felsteel-helm\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'flamebane gloves':
+                msg.channel.send('https://tbc.wowhead.com/search?q=flamebane+gloves\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'blessed bracers':
+                msg.channel.send('https://tbc.wowhead.com/item=23539/blessed-bracers\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'bracers of the green fortress':
+            case 'green fortress':
+                msg.channel.send('https://tbc.wowhead.com/item=23538/bracers-of-the-green-fortress\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'gauntlets of the iron tower':
+            case 'iron tower':
+                msg.channel.send('https://tbc.wowhead.com/item=23532/gauntlets-of-the-iron-tower\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'helm of the stalwart defender':
+                msg.channel.send('https://tbc.wowhead.com/item=23535/helm-of-the-stalwart-defender\n\nPlayers that can craft this:\nLyles');
+                break;
+            case 'flamebane bracers':
+                msg.channel.send('https://tbc.wowhead.com/item=23515/flamebane-bracers\n\nPlayers that can craft this:\nLyles');
                 break;
             default:
                 msg.channel.send('Item not found');
