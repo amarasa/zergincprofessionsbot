@@ -28,6 +28,7 @@ client.on('message', msg => {
     if (msg.content.startsWith(ENCH_PREFIX)) {
         const args = msg.content.slice(ENCH_PREFIX.length);
         const item = args.toLowerCase();
+        console.log(item);
 
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
