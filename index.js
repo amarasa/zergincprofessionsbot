@@ -238,34 +238,26 @@ client.on('message', msg => {
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
 
+        
         zergData.Professions.Alchemy['Super Mana Potion'].players.forEach(player => {
             console.log(player);
         });
       //  console.log(zergData.Professions.Alchemy['Super Mana Potion'].players);
     }
 
-    if ((msg.content).toLowerCase() === `${ALChTEST_PREFIX}`) {
-        console.log('alchtest started');
-
+    if (msg.content.startsWith(ALChTEST_PREFIX)) {
         const args = msg.content.slice(ALChTEST_PREFIX.length);
         const item = args.toLowerCase();
+        console.log('alchtest started');
 
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
-
-
 
         if(zergData.hasOwnProperty(item)){
             console.log('Item Found!');
          } else {
              console.log('Item Not Found');
          }
-
-
-        // zergData.Professions.Alchemy[item].players.forEach(player => {
-        //     console.log(player);
-        // });
-      //  console.log(zergData.Professions.Alchemy['Super Mana Potion'].players);
     }
 });
 
