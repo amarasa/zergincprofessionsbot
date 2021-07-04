@@ -5,7 +5,6 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
                 "type": "potion",
                 "players" : [
-                    "Lials",
                     "Synderasis"
                 ]
             }
@@ -24,7 +23,7 @@
                 "Synderasis"
             ],
             "potion" : [
-                "Lials"
+
             ],
             "transmute" : [
                 
