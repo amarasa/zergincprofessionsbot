@@ -288,7 +288,7 @@ client.on('message', msg => {
                     }
                 });
 
-                msg.channel.send('Players with '+ craftType.charAt(0).toUpperCase() + ' Specialization: ' + specializedCrafters);
+                msg.channel.send('Players with '+ capitalizeFirstLetter(craftType) + ' Specialization: ' + specializedCrafters);
             }
 
          } else {
@@ -296,5 +296,9 @@ client.on('message', msg => {
          }
     }
 });
+
+function capitalizeFirstLetter(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
 
 client.login('ODYwNDk3ODkzNTA5MDM4MTAw.YN8HHQ.rz3cNHY0QVO8TIg0-muapygZbGs');
