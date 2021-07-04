@@ -104,6 +104,225 @@
                 ],
                 "mats" : "Fel Iron Bar (6), Primal Water (3), Primal Fire (2)"
             }
+        },
+
+        "jewelcrafting" : {
+            "lustrous star of elune" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24037/lustrous-star-of-elune",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+3 Mana every 5 seconds",
+                "mats" : "Star of Elune",
+                "socket": "Matches a Blue Socket."
+            },
+            "solid star of elune" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24033/solid-star-of-elune",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+12 Stamina",
+                "mats" : "Star of Elune",
+                "socket": "Matches a Blue Socket."
+            },
+            "sparkling star of elune" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24035/sparkling-star-of-elune",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Spirit",
+                "mats" : "Star of Elune",
+                "socket": "Matches a Blue Socket."
+            },
+            "jagged talasite" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24067/jagged-talasite",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+4 Critical Strike Rating and +6 Stamina",
+                "mats" : "Talasite",
+                "socket": "Matches a Yellow or Blue Socket."
+            },
+            "radiant talasite" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24066/radiant-talasite",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+4 Spell Critical Rating and +5 Spell Penetration",
+                "mats" : "Talasite",
+                "socket": "Matches a Yellow or Blue Socket."
+            },
+            "chaotic skyfire diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=44794/chaotic-skyfire-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+12 Spell Critical & 3% Increased Critical Damage. Requires at least 2 Blue Gems",
+                "mats" : "Skyfire Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "enigmatic skyfire diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25895/enigmatic-skyfire-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+12 Critical Strike Rating & 5% Snare and Root Resist. Requires more Red gems than Yellow gems",
+                "mats" : "Skyfire Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "insightful earthstorm diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25901/insightful-earthstorm-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+12 Intellect & Chance to restore mana on spellcast. Requires at least 2 Red Gems. Requires at least 2 Yellow Gems. Requires at least 2 Blue Gems",
+                "mats" : "Earthstorm Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "powerful earthstorm diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25896/powerful-earthstorm-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+18 Stamina & 5% Stun Resist. Requires at least 3 Blue Gems",
+                "mats" : "Earthstorm Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "swift skyfire diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25894/swift-skyfire-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+24 Attack Power and Minor Run Speed Increase. Requires at least 2 Yellow Gems. Requires at least 1 Red Gem",
+                "mats" : "Skyfire Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "tenacious earthstorm diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25898/tenacious-earthstorm-diamond",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+12 Defense Rating & Chance to Restore Health on hit. Requires at least 5 Blue Gems",
+                "mats" : "Earthstorm Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "luminous noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24060/luminous-noble-topaz",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+9 Healing +3 Spell Damage and +4 Intellect",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
+            "veiled noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31867/veiled-noble-topaz",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+4 Spell Hit Rating and +5 Spell Damage",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
+            "wicked noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31868/wicked-noble-topaz",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+4 Critical Strike Rating and +8 Attack Power",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
+            "glowing nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24056/glowing-nightseye",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+5 Spell Damage and +6 Stamina",
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
+            "royal nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24057/royal-nightseye",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
+            "sovereign nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24054/sovereign-nightseye",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+4 Strength and +6 Stamina",
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
+            "delicate living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24028/delicate-living-ruby",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Agility",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "flashing living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=31091/flashing-living-ruby",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Parry Rating",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "subtle living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24032/subtle-living-ruby",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Dodge Rating",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "great dawnstone" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31861/great-dawnstone",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Spell Hit Rating",
+                "mats" : "Dawnstone",
+                "socket": "Matches a Yellow Socket."
+            },
+            "mystic dawnstone" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24053/mystic-dawnstone",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Resillience Rating",
+                "mats" : "Dawnstone",
+                "socket": "Matches a Yellow Socket."
+            },
+            "rigid dawnstone" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24051/rigid-dawnstone",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Hit Rating",
+                "mats" : "Dawnstone",
+                "socket": "Matches a Yellow Socket."
+            },
+            "thick dawnstone" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24052/thick-dawnstone",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "+8 Defense Rating",
+                "mats" : "Dawnstone",
+                "socket": "Matches a Yellow Socket."
+            }
         }
     },
 
