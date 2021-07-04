@@ -253,19 +253,35 @@ client.on('message', msg => {
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
 
+        //-- Check to see if the item even exists in our JSON file
         if(item in zergData.professions.alchemy){
+            //-- Initiat an empty local varable that will contain the crafter's names
             let crafters = '';
+
+            //-- Get craftable type so that we can match it to a specialization
+            let craftType = zergData.professions.alchemy[item].type;
+
+            //-- Display wowhead link
             msg.channel.send(zergData.professions.alchemy[item].wowhead);
+
+            //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
             zergData.professions.alchemy[item].players.forEach(player => {
+                //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
                 if (crafters.length == 0) {
                     crafters = player;
                 } else {
                     crafters = crafters + ', ' + player;
                 }
             }); 
+            //-- Display who can has this recipe
             msg.channel.send('Players with this recipe: '+ crafters);
+
+            //-- Get players that have the specialization in this consumable
+            console.log(zergData.specialization.alchemy[craftType]);
+            console.log(zergData.specialization.alchemy[craftType].length);
+
          } else {
-             msg.channel.send('Sorry, the item you\'re looking for is not found.');
+             msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
          }
     }
 });

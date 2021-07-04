@@ -3,8 +3,9 @@
         "alchemy" : {
             "super mana potion" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
+                "type": "potion",
                 "players" : [
-                    "Lylès",
+                    "Lials",
                     "Synderasis"
                 ]
             }
@@ -23,7 +24,7 @@
                 "Synderasis"
             ],
             "potion" : [
-
+                "Lials"
             ],
             "transmute" : [
                 
