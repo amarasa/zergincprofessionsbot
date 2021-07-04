@@ -15,16 +15,16 @@
                 "players": [
                     "None"
                 ],
-                "enchant" : "",
-                "mats" : ""
+                "enchant" : "Permanently enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly.  Requires a level 35 or higher item.",
+                "mats" : "6 Voice Crystal, 10 Large Prismatic Shard, 8 Greater Planar Essence, and 40 Arcane Dust."
             },
             "major defense" : {
                 "wowhead" : "https://tbc.wowhead.com/spell=27906/enchant-bracer-major-defense",
                 "players": [
                     "Lylès"
                 ],
-                "enchant" : "",
-                "mats" : ""
+                "enchant" : "Permanently enchants bracers to increase your defense rating by 12.  Requires a level 35 or higher item.",
+                "mats" : "2 Small Prismatic Shard and 10 Arcane Dust."
             }
         }
     },
