@@ -242,6 +242,30 @@ client.on('message', msg => {
         });
       //  console.log(zergData.Professions.Alchemy['Super Mana Potion'].players);
     }
+
+    if ((msg.content).toLowerCase() === '.alchtest ') {
+        console.log('alchtest started');
+
+        const args = msg.content.slice(10);
+        const item = args.toLowerCase();
+
+        let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
+        let zergData = JSON.parse(rawdata);
+
+
+
+        if(zergData.hasOwnProperty(item)){
+            console.log('Item Found!');
+         } else {
+             console.log('Item Not Found');
+         }
+
+
+        // zergData.Professions.Alchemy[item].players.forEach(player => {
+        //     console.log(player);
+        // });
+      //  console.log(zergData.Professions.Alchemy['Super Mana Potion'].players);
+    }
 });
 
 client.login('ODYwNDk3ODkzNTA5MDM4MTAw.YN8HHQ.rz3cNHY0QVO8TIg0-muapygZbGs');
