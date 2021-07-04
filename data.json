@@ -1,0 +1,19 @@
+{
+    "Professions" : {
+        "Alchemy" : {
+            "Super Mana Potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
+                "players" : [
+                    "Lylès",
+                    "Synderasis"
+                ]
+            }
+    },
+        "Enchanting" : {
+            "Mongoose" : {
+                "wowhead" : "",
+                "players": "None"
+            }
+        }
+    }
+}

@@ -9,7 +9,8 @@ const BS_PREFIX = '.bs ';
 const JC_PREFIX = '.jc ';
 const TAILOR_PREFIX = '.tailor ';
 const ALCH_PREFIX = '.alch ';
-const ENG_PROFIX = '.eng ';
+const ENG_PREFIX = '.eng ';
+const TEST_PREFIX = ".test ";
 
 client.once('ready', () => {
     console.log('Zerg Inc Professions Bot is Online!');
@@ -216,8 +217,8 @@ client.on('message', msg => {
         }
     }
 
-    if (msg.content.startsWith(ENG_PROFIX)) {
-        const args = msg.content.slice(ENG_PROFIX.length);
+    if (msg.content.startsWith(ENG_PREFIX)) {
+        const args = msg.content.slice(ENG_PREFIX.length);
         const item = args.toLowerCase();
         switch(item) {
             case 'special':
@@ -227,6 +228,15 @@ client.on('message', msg => {
                 msg.channel.send('Item not found');
         }
     }
+
+//-- Testing
+    if ((msg.content).toLowerCase() === `${TEST_PREFIX}`) {
+        fetch("data.json")
+        .then(response => {
+            return response.json();
+        })
+        .then(data => console.log(data));
+            }
 });
 
 client.login('ODYwNDk3ODkzNTA5MDM4MTAw.YN8HHQ.rz3cNHY0QVO8TIg0-muapygZbGs');
