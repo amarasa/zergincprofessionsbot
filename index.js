@@ -254,9 +254,14 @@ client.on('message', msg => {
         let zergData = JSON.parse(rawdata);
 
         if(item in zergData.professions.alchemy){
-            console.log('Item Found!');
+            let crafters = '';
+            msg.channel.send(zergData.professions.alchemy['item'].wowhead);
+            zergData.professions.alchemy['item'].players.forEach(player => {
+                crafters = crafters + ', ' + player;
+            }); 
+            msg.channel.send('Players with this recipe: '+ crafters);
          } else {
-             console.log('Item Not Found');
+             msg.channel.send('Sorry, the item you\'re looking for is not found.');
          }
     }
 });
