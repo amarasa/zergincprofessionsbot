@@ -10,7 +10,7 @@ const JC_PREFIX = '.jc ';
 const TAILOR_PREFIX = '.tailor ';
 const ALCH_PREFIX = '.alch ';
 const ENG_PREFIX = '.eng ';
-const TEST_PREFIX = ".test ";
+const TEST_PREFIX = ".test";
 
 client.once('ready', () => {
     console.log('Zerg Inc Professions Bot is Online!');
@@ -231,12 +231,11 @@ client.on('message', msg => {
 
 //-- Testing
     if ((msg.content).toLowerCase() === `${TEST_PREFIX}`) {
-        fetch("data.json")
-        .then(response => {
-            return response.json();
-        })
-        .then(data => console.log(data));
-            }
+        console.log('test started');
+        let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
+        let zergData = JSON.parse(rawdata);
+        console.log(zergData);
+    }
 });
 
 client.login('ODYwNDk3ODkzNTA5MDM4MTAw.YN8HHQ.rz3cNHY0QVO8TIg0-muapygZbGs');
