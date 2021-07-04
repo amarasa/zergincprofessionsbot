@@ -236,7 +236,7 @@ client.on('message', msg => {
         console.log('test started');
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
-        console.log(zergData.Professions);
+        console.log(zergData.Professions.Alchemy['Super Mana Potion']);
     }
 });
 
