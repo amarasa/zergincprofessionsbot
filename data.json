@@ -12,13 +12,19 @@
         "enchanting" : {
             "mongoose" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose",
-                "players": "None"
+                "players": [
+                    "None"
+                ],
+                "enchant" : "",
+                "mats" : ""
             },
             "major defense" : {
                 "wowhead" : "https://tbc.wowhead.com/spell=27906/enchant-bracer-major-defense",
                 "players": [
                     "Lylès"
-                ]
+                ],
+                "enchant" : "",
+                "mats" : ""
             }
         }
     },
