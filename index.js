@@ -38,11 +38,8 @@ client.on('message', msg => {
             //-- Initiat an empty local varable that will contain the crafter's names
             let crafters = '';
 
-            //-- Get craftable type so that we can match it to a specialization
-            let craftType = zergData.professions.enchanting[item].type;
-
             //-- Display wowhead link
-            msg.channel.send(zergData.professions.enchanting[item].wowhead);
+            msg.channel.send("<"+zergData.professions.enchanting[item].wowhead+">");
 
             //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
             zergData.professions.enchanting[item].players.forEach(player => {
@@ -53,9 +50,15 @@ client.on('message', msg => {
                     crafters = crafters + ', ' + player;
                 }
             }); 
-            //-- Display who can has this recipe
-            msg.channel.send('Players with this enchant: '+ crafters);
 
+            //-- Display the enchant details
+            msg.channel.send("**Effect:** " + zergData.professions.enchanting[item].effect);
+
+            //-- Display the materials required
+            msg.channel.send("**Materials required:** " + zergData.professions.enchanting[item].mats +"\n\n");
+
+            //-- Display who can has this recipe
+            msg.channel.send('**Enchanters:** '+ crafters);
          } else {
              msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
          }
@@ -64,46 +67,58 @@ client.on('message', msg => {
     if (msg.content.startsWith(BS_PREFIX)) {
         const args = msg.content.slice(BS_PREFIX.length);
         const item = args.toLowerCase();
-        console.log('item ' + item);
+        console.log(item);
 
-        switch(item) {
-            case 'special':
-                msg.channel.send('Axesmithing: None registered.\n\nSwordsmithing: None registered.\n\nHammersmithing: Lyles\nOrcbar\n\nArmorsmithing');
-                break;
-            case 'wildguard helm':
-                msg.channel.send('https://tbc.wowhead.com/item=31392/plans-wildguard-helm\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'wildguard leggings':
-            case 'wildguard legs':
-                msg.channel.send('https://tbc.wowhead.com/spell=38475/wildguard-leggings\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'felsteel helm':
-                msg.channel.send('https://tbc.wowhead.com/spell=29621/felsteel-helm\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'flamebane gloves':
-                msg.channel.send('https://tbc.wowhead.com/search?q=flamebane+gloves\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'blessed bracers':
-                msg.channel.send('https://tbc.wowhead.com/item=23539/blessed-bracers\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'bracers of the green fortress':
-            case 'green fortress':
-                msg.channel.send('https://tbc.wowhead.com/item=23538/bracers-of-the-green-fortress\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'gauntlets of the iron tower':
-            case 'iron tower':
-                msg.channel.send('https://tbc.wowhead.com/item=23532/gauntlets-of-the-iron-tower\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'helm of the stalwart defender':
-            case 'stalwart defender':
-                msg.channel.send('https://tbc.wowhead.com/item=23535/helm-of-the-stalwart-defender\n\nPlayers that can craft this:\nLyles');
-                break;
-            case 'flamebane bracers':
-                msg.channel.send('https://tbc.wowhead.com/item=23515/flamebane-bracers\n\nPlayers that can craft this:\nLyles');
-                break;
-            default:
-                msg.channel.send('Item not found');
-        }
+        let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
+        let zergData = JSON.parse(rawdata);
+
+        //-- Check to see if the item even exists in our JSON file
+        if(item in zergData.professions.blacksmithing){
+            //-- Get craftable type so that we can match it to a specialization
+            let craftType = zergData.professions.blacksmithing[item].type;
+            console.log(craftType);
+
+            //-- Initiat an empty local varable that will contain the crafter's names
+            let crafters = '';
+
+            //-- Display wowhead link
+            msg.channel.send("<"+zergData.professions.blacksmithing[item].wowhead+">");
+
+            //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
+            zergData.professions.blacksmithing[item].players.forEach(player => {
+                //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
+                if (crafters.length == 0) {
+                    crafters = player;
+                } else {
+                    crafters = crafters + ', ' + player;
+                }
+            }); 
+            //-- Display the materials required
+            msg.channel.send("**Materials required:** " + zergData.professions.blacksmithing[item].mats +"\n\n");
+
+            //-- Display who can has this recipe
+            msg.channel.send('**Blacksmiths:** '+ crafters);
+
+            //-- Get players that have the specialization in this consumable
+            if (craftType != "None" && zergData.specialization.blacksmithing[craftType].length > 0) {
+                //-- Initiat an empty local varable that will contain the specialized crafter's names
+                let specializedCrafters = '';
+                
+                //-- Get the players who can specializa in this type from the JSON array and assign it to a local var
+                zergData.specialization.blacksmithing[craftType].forEach(player => {
+                     //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
+                    if (specializedCrafters.length == 0) {
+                        specializedCrafters = player;
+                    } else {
+                        specializedCrafters = specializedCrafters + ', ' + player;
+                    }
+                });
+
+                msg.channel.send('**Players with '+ capitalizeFirstLetter(craftType) + ' Specialization:** ' + specializedCrafters);
+            }
+         } else {
+             msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
+         }
     }
 
     if (msg.content.startsWith(JC_PREFIX)) {
@@ -242,7 +257,7 @@ client.on('message', msg => {
             let craftType = zergData.professions.alchemy[item].type;
 
             //-- Display wowhead link
-            msg.channel.send(zergData.professions.alchemy[item].wowhead);
+            msg.channel.send("<"+zergData.professions.alchemy[item].wowhead+">");
 
             //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
             zergData.professions.alchemy[item].players.forEach(player => {
@@ -253,8 +268,15 @@ client.on('message', msg => {
                     crafters = crafters + ', ' + player;
                 }
             }); 
+
+            //-- Display the enchant details
+            msg.channel.send("**Effect:** " + zergData.professions.alchemy[item].effect);
+
+            //-- Display the materials required
+            msg.channel.send("**Materials required:** " + zergData.professions.alchemy[item].mats +"\n\n");
+
             //-- Display who can has this recipe
-            msg.channel.send('Players with this recipe: '+ crafters);
+            msg.channel.send('**Alchemists**: '+ crafters);
 
             //-- Get players that have the specialization in this consumable
             if (zergData.specialization.alchemy[craftType].length > 0) {
@@ -271,7 +293,7 @@ client.on('message', msg => {
                     }
                 });
 
-                msg.channel.send('Players with '+ capitalizeFirstLetter(craftType) + ' Specialization: ' + specializedCrafters);
+                msg.channel.send('**Players with '+ capitalizeFirstLetter(craftType) + ' Specialization:** ' + specializedCrafters);
             }
 
          } else {

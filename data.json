@@ -6,25 +6,103 @@
                 "type": "potion",
                 "players" : [
                     "Synderasis"
-                ]
+                ],
+                "effect" : "Use: Restores 1800 to 3000 mana. (2 Min Cooldown)",
+                "mats" : "Dreaming Glory (2), Felweed, Imbued Vial"
             }
-    },
+        },
+
         "enchanting" : {
             "mongoose" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose",
                 "players": [
                     "None"
                 ],
-                "enchant" : "Permanently enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly.  Requires a level 35 or higher item.",
-                "mats" : "6 Voice Crystal, 10 Large Prismatic Shard, 8 Greater Planar Essence, and 40 Arcane Dust."
+                "effect" : "Permanently enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly.  Requires a level 35 or higher item.",
+                "mats" : "Void Crystal (6), Large Prismatic Shard (10), Greater Planar Essence (8), Arcane Dust (40)"
             },
             "major defense" : {
                 "wowhead" : "https://tbc.wowhead.com/spell=27906/enchant-bracer-major-defense",
                 "players": [
                     "Lylès"
                 ],
-                "enchant" : "Permanently enchants bracers to increase your defense rating by 12.  Requires a level 35 or higher item.",
-                "mats" : "2 Small Prismatic Shard and 10 Arcane Dust."
+                "effect" : "Permanently enchants bracers to increase your defense rating by 12.  Requires a level 35 or higher item.",
+                "mats" : "Small Prismatic Shard (2), Arcane Dust (10)"
+            }
+        },
+
+        "blacksmithing": {
+            "wildguard helm" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31392/plans-wildguard-helm",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Felsteel Bar (8), Primal Life (12), Primal Shadow (12), Primal Nether"
+            },
+            "wildguard leggings" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=38475/wildguard-leggings",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Felsteel Bar (8), Primal Life (12), Primal Shadow (12), Primal Nether"
+            },
+            "felsteel helm" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=29621/felsteel-helm",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Felsteel Bar (8)"
+            },
+            "flamebane gloves" : {
+                "wowhead" : "https://tbc.wowhead.com/search?q=flamebane+gloves",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Fel Iron Bar (8), Primal Water (4), Primal Fire (4)"
+            },
+            "blessed bracers" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23539/blessed-bracers",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Hardened Adamantite Bar (6), Primal Might (2), Primal Water (15), Primal Nether"
+            },
+            "bracers of the green fortress" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23538/bracers-of-the-green-fortress",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Hardened Adamantite Bar (6), Primal Life (20), Primal Nether"
+            },
+            "gauntlets of the iron tower" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23532/gauntlets-of-the-iron-tower",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Hardened Adamantite Bar (10), Primal Might (2), Primal Earth (15), Primal Nether"
+            },
+            "helm of the stalwart defender" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23535/helm-of-the-stalwart-defender",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Hardened Adamantite Bar (8), Primal Earth (22), Primal Mana (12), Primal Nether"
+            },
+            "flamebane bracers" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23515/flamebane-bracers",
+                "type" : "None",
+                "players": [
+                    "Lyles"
+                ],
+                "mats" : "Fel Iron Bar (6), Primal Water (3), Primal Fire (2)"
             }
         }
     },
@@ -39,6 +117,21 @@
             ],
             "transmute" : [
                 
+            ]
+        },
+        "blacksmithing" : {
+            "swordsmith" : [
+
+            ],
+            "axesmith" : [
+
+            ],
+            "hammersmith" : [
+                "Lyles",
+                "Orcbar"
+            ],
+            "armorsmith" : [
+
             ]
         }
     }
