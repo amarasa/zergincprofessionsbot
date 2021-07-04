@@ -44,17 +44,7 @@ client.on('message', msg => {
             //-- Display wowhead link
             msg.channel.send(zergData.professions.enchanting[item].wowhead);
 
-            //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
-            zergData.professions.enchanting[item].players.forEach(player => {
-                //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
-                if (crafters.length == 0) {
-                    crafters = player;
-                } else {
-                    crafters = crafters + ', ' + player;
-                }
-            }); 
-            //-- Display who can has this recipe
-            msg.channel.send('Players with this enchant: '+ crafters);
+
 
          } else {
              msg.channel.send('Sorry, the item you\'re looking for is not found. Please make surew you\'re using the item name and not the full recipe name.');
