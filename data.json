@@ -1,7 +1,7 @@
 {
     "Professions" : {
         "Alchemy" : {
-            "Super Mana Potion" : {
+            "super mana potion" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
                 "players" : [
                     "Lylès",
@@ -14,6 +14,20 @@
                 "wowhead" : "",
                 "players": "None"
             }
+        }
+    },
+
+    "Specialization" : {
+        "Alchemy": {
+            "Elixir": [
+                "Synderasis"
+            ],
+            "Potion" : [
+
+            ],
+            "Transmute" : [
+                
+            ]
         }
     }
 }
