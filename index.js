@@ -253,7 +253,7 @@ client.on('message', msg => {
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
         let zergData = JSON.parse(rawdata);
 
-        if(zergData.hasOwnProperty(item)){
+        if(item in zergData.professions.alchemy){
             console.log('Item Found!');
          } else {
              console.log('Item Not Found');

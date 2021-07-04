@@ -1,6 +1,6 @@
 {
-    "Professions" : {
-        "Alchemy" : {
+    "professions" : {
+        "alchemy" : {
             "super mana potion" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
                 "players" : [
@@ -9,23 +9,23 @@
                 ]
             }
     },
-        "Enchanting" : {
-            "Mongoose" : {
+        "enchanting" : {
+            "mongoose" : {
                 "wowhead" : "",
                 "players": "None"
             }
         }
     },
 
-    "Specialization" : {
-        "Alchemy": {
-            "Elixir": [
+    "specialization" : {
+        "alchemy": {
+            "elixir": [
                 "Synderasis"
             ],
-            "Potion" : [
+            "potion" : [
 
             ],
-            "Transmute" : [
+            "transmute" : [
                 
             ]
         }
