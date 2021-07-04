@@ -13,6 +13,7 @@ const TAILOR_PREFIX = '.tailor ';
 const ALCH_PREFIX = '.alch ';
 const ENG_PREFIX = '.eng ';
 const TEST_PREFIX = ".test";
+const ALChTEST_PREFIX = ".alchtest ";
 
 client.once('ready', () => {
     console.log('Zerg Inc Professions Bot is Online!');
@@ -243,10 +244,10 @@ client.on('message', msg => {
       //  console.log(zergData.Professions.Alchemy['Super Mana Potion'].players);
     }
 
-    if ((msg.content).toLowerCase() === '.alchtest ') {
+    if ((msg.content).toLowerCase() === `${ALChTEST_PREFIX}`) {
         console.log('alchtest started');
 
-        const args = msg.content.slice(10);
+        const args = msg.content.slice(ALChTEST_PREFIX.length);
         const item = args.toLowerCase();
 
         let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
