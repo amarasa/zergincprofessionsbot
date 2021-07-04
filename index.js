@@ -157,7 +157,7 @@ client.on('message', msg => {
             msg.channel.send("**Socket:** " + zergData.professions.jewelcrafting[item].socket +"\n\n");
 
             //-- Display who can has this recipe
-            msg.channel.send('**Enchanters:** '+ crafters);
+            msg.channel.send('**Jewelcrafters:** '+ crafters);
          } else {
              msg.channel.send('Sorry, the item you\'re looking for is not found. Please make sure you\'re using the item name and not the full recipe name.');
          }
