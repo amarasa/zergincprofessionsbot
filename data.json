@@ -263,9 +263,28 @@
             "delicate living ruby" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24028/delicate-living-ruby",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Agility",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "bold living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24027/bold-living-ruby",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+8 Strength",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "runed living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24030/runed-living-ruby",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+9 Spell Damage",
                 "mats" : "Living Ruby",
                 "socket": "Matches a Red Socket."
             },
