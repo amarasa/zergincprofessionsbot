@@ -195,10 +195,9 @@ client.on('message', msg => {
             msg.channel.send("**Materials required:** " + zergData.professions.tailoring[item].mats +"\n\n");
 
             //-- Display who can has this recipe
-            msg.channel.send('**Alchemists**: '+ crafters);
-
-            //-- Get players that have the specialization in this consumable
-            if (zergData.specialization.tailoring[craftType].length > 0) {
+            msg.channel.send('**Tailors**: '+ crafters);
+            //-- Get players that have the specialization in this profression
+            if (craftType != "None" && zergData.specialization.tailoring[craftType].length > 0) {
                 //-- Initiat an empty local varable that will contain the specialized crafter's names
                 let specializedCrafters = '';
                 

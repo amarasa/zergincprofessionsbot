@@ -5,10 +5,316 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
                 "type": "potion",
                 "players" : [
-                    "Lials"
+                    "Lials",
+                    "Schitter",
+                    "Synderasis"
                 ],
                 "effect" : "Use: Restores 1800 to 3000 mana. (2 Min Cooldown)",
                 "mats" : "Dreaming Glory (2), Felweed, Imbued Vial"
+            },
+            "flask of pure death" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22866/flask-of-pure-death",
+                "type": "elixir",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases spell damage caused by Shadow, Fire and Frost spells by up to 80 for 2 hrs.  Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Fel Lotus, Mana Thistle (3), Nightmare Vine (7), Imbued Vial"
+            },
+            "flask of mighty restoration" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22853/flask-of-mighty-restoration",
+                "type": "elixir",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases mana regeneration by 25 mana per 5 seconds for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Fel Lotus, Mana Thistle (3), Dreaming Glory (7), Imbued Vial"
+            },
+            "flask of relentless assault" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22854/flask-of-relentless-assault",
+                "type": "elixir",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Increases attack power by 120 for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Fel Lotus, Mana Thistle (3), Terocone (7), Imbued Vial"
+            },
+            "elixir of major frost power" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22827/elixir-of-major-frost-power",
+                "type": "elixir",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases frost spell damage by up to 55 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Mote of Water (2), Ancient Lichen, Imbued Vial"
+            },
+            "elixir of major firepower" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22833/elixir-of-major-firepower",
+                "type": "elixir",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases fire spell damage by up to 55 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Mote of Fire (2), Ancient Lichen, Imbued Vial"
+            },
+            "elixir of major shadow power" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22835/elixir-of-major-shadow-power",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases shadow spell damage by up to 55 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Ancient Lichen, Nightmare Vine, Imbued Vial"
+            },
+            "fel strength elixir" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31679/fel-strength-elixir",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases attack power by 90 and decreases stamina by 10 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Terocone, Nightmare Vine (2), Imbued Vial"
+            },
+            "elixir of camouflage" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22823/elixir-of-camouflage",
+                "type": "elixir",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Imbiber cannot be tracked for 1 hour. (3 Sec Cooldown)",
+                "mats" : "Ragveil, Felweed, Imbued Vial"
+            },
+            "elixir of major agility" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22831/elixir-of-major-agility",
+                "type": "elixir",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases your Agility by 35 and your critical strike rating by 20 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Terocone, Felweed (2), Imbued Vial"
+            },
+            "Elixir of major fortitude" : {
+                "wowhead" : "https://tbc.wowhead.com/item=32062/elixir-of-major-fortitude",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases maximum health by 250 and restores 10 health every 5 seconds for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+                "mats" : "Ragveil (2), Felweed, Imbued Vial"
+            },
+            "elixir of major defense" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22834/elixir-of-major-defense",
+                "type": "elixir",
+                "players" : [
+                    "Lials",
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Use: Increases armor by 550 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+                "mats" : "Ancient Lichen (3), Terocone, Imbued Vial"
+            },
+            "elixir of empowerment" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22848/elixir-of-empowerment",
+                "type": "elixir",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Decreases the magical resistances of your spell targets by 30 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+                "mats" : "Netherbloom, Mana Thistle, Imbued Vial"
+            },
+            "ironshield potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22849/ironshield-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Increases armor by 2500 for 2 min. (2 Min Cooldown)",
+                "mats" : "Ancient Lichen (2), Mote of Earth (3), Imbued Vial"
+            },
+            "insane strength potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22828/insane-strength-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Increases your Strength by 120 and decreases your defense rating by 75 for 15 sec. (2 Min Cooldown)",
+                "mats" : "Terocone (3), Imbued Vial"
+            },
+            "super rejuvenation potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22850/super-rejuvenation-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Restores 1650 to 2750 mana and health. (2 Min Cooldown)",
+                "mats" : "Mana Thistle (2), Dreaming Glory, Netherbloom, Imbued Vial"
+            },
+            "major fire protection potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22841/major-fire-protection-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Absorbs 2800 to 4000 fire damage.  Lasts 2 min. (2 Min Cooldown)",
+                "mats" : "Primal Fire, Mana Thistle (3), Imbued Vial (5)"
+            },
+            "major frost protection potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22842/major-frost-protection-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Absorbs 2800 to 4000 frost damage.  Lasts 2 min. (2 Min Cooldown)",
+                "mats" : "Primal Water, Mana Thistle (3), Imbued Vial (5)"
+            },
+            "major dreamless sleep potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22836/major-dreamless-sleep-potion",
+                "type": "potion",
+                "players" : [
+                    "Schitter"
+                ],
+                "effect" : "Use: Puts the imbiber in a dreamless sleep for 12 sec.  During that time the imbiber heals 3600 health and 3600 mana. (2 Min Cooldown)",
+                "mats" : "Dreaming Glory, Nightmare Vine, Imbued Vial"
+            },
+            "transmute earthstorm diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=32765/transmute-earthstorm-diamond",
+                "type": "transmute",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Transmute: Earthstorm Diamond",
+                "mats" : "Deep Peridot (3), Shadow Draenite (3), Golden Draenite (3), Primal Earth (2), Primal Water (2)"
+            },
+            "transmute skyfire diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=32766/transmute-skyfire-diamond",
+                "type": "transmute",
+                "players" : [
+                    "Schitter",
+                    "Synderasis"
+                ],
+                "effect" : "Transmute: Skyfire Diamond",
+                "mats" : "Blood Garnet (3), Flame Spessarite (3), Azure Moonstone (3), Primal Fire (2), Primal Air (2)"
+            },
+            "transmute primal might" : {
+                "wowhead" : "https://tbc.wowhead.com/item=23571/primal-might",
+                "type": "transmute",
+                "players" : [
+                    "Lials",
+                    "Synderasis"
+                ],
+                "effect" : "Creates a Primal Might",
+                "mats" : "1 Primal Earth, 1 Primal Water, 1 Primal Air, 1 Primal Fire and 1 Primal Mana and uses the daily Transmute cooldown."
+            },
+            "elixir of the mongoose" : {
+                "wowhead" : "https://tbc.wowhead.com/item=13452/elixir-of-the-mongoose",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis",
+                    "Lials"
+                ],
+                "effect" : "Use: Increases Agility by 25 and critical strike rating by 28 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Mountain Silversage (2), Plaguebloom (2), Crystal Vial"
+            },
+            "adept's elixir" : {
+                "wowhead" : "https://tbc.wowhead.com/item=28103/adepts-elixir",
+                "type": "elixir",
+                "players" : [
+                    "Lials",
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Increases spell damage and healing by up to 24 and spell critical strike rating by 24 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Dreamfoil, Felweed, Imbued Vial"
+            },
+            "Elixir of draenic wisdom" : {
+                "wowhead" : "https://tbc.wowhead.com/item=32067/elixir-of-draenic-wisdom",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases Intellect and Spirit by 30 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+                "mats" : "Felweed, Terocone, Imbued Vial"
+            },
+            "onslaught elixir" : {
+                "wowhead" : "https://tbc.wowhead.com/item=28102/onslaught-elixir",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases attack power by 60 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Mountain Silversage, Felweed, Imbued Vial"
+            },
+            "flask of binding light" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22861/flask-of-blinding-light",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases spell damage caused by Arcane, Holy and Nature spells by up to 80 for 2 hrs.  Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Fel Lotus, Mana Thistle (3), Netherbloom (7), Imbued Vial"
+            },
+            "flask of distilled wisdom" : {
+                "wowhead" : "https://tbc.wowhead.com/item=13511/flask-of-distilled-wisdom",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases Intellect by 65 for 2 hrs. Counts as both a Battle and Guardian elixir. This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Dreamfoil (7), Icecap (3), Black Lotus, Crystal Vial"
+            },
+            "flask of fortification" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22851/flask-of-fortification",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                ],
+                "effect" : "Use: Increases maximum health by 500 and defense rating by 10 for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Fel Lotus, Mana Thistle (3), Ancient Lichen (7), Imbued Vial"
+            },
+            "flask of supreme power" : {
+                "wowhead" : "https://tbc.wowhead.com/item=13512/flask-of-supreme-power",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Increases damage done by magical spells and effects by up to 70 for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
+                "mats" : "Dreamfoil (7), Mountain Silversage (3), Black Lotus, Crystal Vial"
+            },
+            "elixir of major mageblood" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22840/elixir-of-major-mageblood",
+                "type": "elixir",
+                "players" : [
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Regenerate 16 mana per 5 sec for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
+                "mats" : "Ancient Lichen, Netherbloom, Imbued Vial"
+            },
+            "fel mana potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31677/fel-mana-potion",
+                "type": "potion",
+                "players" : [
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Restores 3200 mana over 24 sec, but at a cost.   Also reduces spell damage by 25 and healing done by 50 for 15 min. (2 Min Cooldown)",
+                "mats" : "Mana Thistle, Nightmare Vine (2), Imbued Vial"
+            },
+            "major shadow protection" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22846/major-shadow-protection-potion",
+                "type": "potion",
+                "players" : [
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Absorbs 2800 to 4000 shadow damage.  Lasts 2 min. (2 Min Cooldown)",
+                "mats" : "Primal Shadow, Mana Thistle (3), Imbued Vial (5)"
+            },
+            "elixir of demonslaying" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=11477/elixir-of-demonslaying",
+                "type": "potion",
+                "players" : [
+                    "Lials",
+                    "Synderasis"                
+                ],
+                "effect" : "Use: Increases attack power by 265 against demons.  Lasts 5 min.    Battle Elixir. (3 Sec Cooldown)",
+                "mats" : "Gromsblood, Ghost Mushroom, Crystal Vial"
             }
         },
         
@@ -452,7 +758,8 @@
     "specialization" : {
         "alchemy": {
             "elixir": [
-                "Synderasis"
+                "Synderasis",
+                "Schitter"
             ],
             "potion" : [
 
