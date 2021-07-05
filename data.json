@@ -119,7 +119,8 @@
             "solid star of elune" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24033/solid-star-of-elune",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+12 Stamina",
                 "mats" : "Star of Elune",
@@ -128,7 +129,8 @@
             "sparkling star of elune" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24035/sparkling-star-of-elune",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Spirit",
                 "mats" : "Star of Elune",
@@ -140,6 +142,15 @@
                     "Lylès"
                 ],
                 "effect" : "+4 Critical Strike Rating and +6 Stamina",
+                "mats" : "Talasite",
+                "socket": "Matches a Yellow or Blue Socket."
+            },
+            "dazzling talasite" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24065/dazzling-talasite",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+4 Intellect and +2 Mana every 5 seconds",
                 "mats" : "Talasite",
                 "socket": "Matches a Yellow or Blue Socket."
             },
@@ -155,16 +166,27 @@
             "chaotic skyfire diamond" : {
                 "wowhead" : "https://tbc.wowhead.com/spell=44794/chaotic-skyfire-diamond",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+12 Spell Critical & 3% Increased Critical Damage. Requires at least 2 Blue Gems",
+                "mats" : "Skyfire Diamond",
+                "socket": "Only fits in a meta gem slot."
+            },
+            "destructive skyfire diamond" : {
+                "wowhead" : "https://tbc.wowhead.com/item=25890/destructive-skyfire-diamond",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+14 Spell Crit Rating and 1% Spell Reflect. Requires at least 2 Red Gems. Requires at least 2 Blue Gems. Requires at least 2 Yellow Gems",
                 "mats" : "Skyfire Diamond",
                 "socket": "Only fits in a meta gem slot."
             },
             "enigmatic skyfire diamond" : {
                 "wowhead" : "https://tbc.wowhead.com/item=25895/enigmatic-skyfire-diamond",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+12 Critical Strike Rating & 5% Snare and Root Resist. Requires more Red gems than Yellow gems",
                 "mats" : "Skyfire Diamond",
@@ -173,7 +195,8 @@
             "insightful earthstorm diamond" : {
                 "wowhead" : "https://tbc.wowhead.com/item=25901/insightful-earthstorm-diamond",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+12 Intellect & Chance to restore mana on spellcast. Requires at least 2 Red Gems. Requires at least 2 Yellow Gems. Requires at least 2 Blue Gems",
                 "mats" : "Earthstorm Diamond",
@@ -182,7 +205,8 @@
             "powerful earthstorm diamond" : {
                 "wowhead" : "https://tbc.wowhead.com/item=25896/powerful-earthstorm-diamond",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+18 Stamina & 5% Stun Resist. Requires at least 3 Blue Gems",
                 "mats" : "Earthstorm Diamond",
@@ -215,10 +239,38 @@
                 "mats" : "Noble Topaz",
                 "socket": "Matches a Red or Yellow Socket."
             },
+            "glinting noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24061/glinting-noble-topaz",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+4 Hit Rating and +4 Agility",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
+            "inscribed noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24058/inscribed-noble-topaz",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+4 Critical Strike Rating and +4 Strength",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
+            "potent noble topaz" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24059/potent-noble-topaz",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+4 Spell Critical Rating and +5 Spell Damage",
+                "mats" : "Noble Topaz",
+                "socket": "Matches a Red or Yellow Socket."
+            },
             "veiled noble topaz" : {
                 "wowhead" : "https://tbc.wowhead.com/item=31867/veiled-noble-topaz",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+4 Spell Hit Rating and +5 Spell Damage",
                 "mats" : "Noble Topaz",
@@ -236,7 +288,8 @@
             "glowing nightseye" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24056/glowing-nightseye",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+5 Spell Damage and +6 Stamina",
                 "mats" : "Nightseye",
@@ -245,9 +298,20 @@
             "royal nightseye" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24057/royal-nightseye",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+9 Healing +3 Spell Damage and +2 Mana every 5 seconds",
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
+            "shifting nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24055/shifting-nightseye",
+                "players": [
+                    "Lylès",
+                    "Orcbar"
+                ],
+                "effect" : "+4 Agility and +6 Stamina",
                 "mats" : "Nightseye",
                 "socket": "Matches a Red or Blue Socket."
             },
@@ -309,7 +373,8 @@
             "great dawnstone" : {
                 "wowhead" : "https://tbc.wowhead.com/item=31861/great-dawnstone",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Spell Hit Rating",
                 "mats" : "Dawnstone",
@@ -318,7 +383,8 @@
             "mystic dawnstone" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24053/mystic-dawnstone",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Resillience Rating",
                 "mats" : "Dawnstone",
@@ -327,16 +393,27 @@
             "rigid dawnstone" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24051/rigid-dawnstone",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Hit Rating",
+                "mats" : "Dawnstone",
+                "socket": "Matches a Yellow Socket."
+            },
+            "gleaming dawnstone" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24050/gleaming-dawnstone",
+                "players": [
+                    "Orcbar"
+                ],
+                "effect" : "+8 Spell Critical Rating",
                 "mats" : "Dawnstone",
                 "socket": "Matches a Yellow Socket."
             },
             "thick dawnstone" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24052/thick-dawnstone",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Orcbar"
                 ],
                 "effect" : "+8 Defense Rating",
                 "mats" : "Dawnstone",
