@@ -11,6 +11,33 @@
                 "mats" : "Dreaming Glory (2), Felweed, Imbued Vial"
             }
         },
+        
+        "tailoring" : {
+            "bracers of havok" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24250/bracers-of-havok",
+                "type": "None",
+                "players" : [
+                    "Schitter"
+                ],
+                "mats" : "4 Bolt of Imbued Netherweave, 4 Primal Earth, and 4 Primal Shadow."
+            },
+            "runic spellthread" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24274/runic-spellthread",
+                "type": "None",
+                "players" : [
+                    "Schitter"
+                ],
+                "mats" : "Rune Thread, Primal Mana (10), Primal Nether"
+            },
+            "cloak of eternity" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24253/cloak-of-eternity",
+                "type": "None",
+                "players" : [
+                    "Schitter"
+                ],
+                "mats" : "Bolt of Imbued Netherweave (6), Primal Earth (6)"
+            }
+        },
 
         "enchanting" : {
             "mongoose" : {
@@ -447,6 +474,17 @@
             ],
             "armorsmith" : [
 
+            ]
+        },
+        "tailoring" : {
+            "spellfire" : [
+
+            ],
+            "mooncloth" : [
+
+            ],
+            "shadoweave" : [
+                "Schitter"
             ]
         }
     }

@@ -166,13 +166,58 @@ client.on('message', msg => {
     if (msg.content.startsWith(TAILOR_PREFIX)) {
         const args = msg.content.slice(TAILOR_PREFIX.length);
         const item = args.toLowerCase();
-        switch(item) {
-            case 'special':
-                msg.channel.send('No specializations received yet.');
-                break;
-            default:
-                msg.channel.send('Item not found');
-        }
+
+        let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
+        let zergData = JSON.parse(rawdata);
+
+        //-- Check to see if the item even exists in our JSON file
+        if(item in zergData.professions.tailoring){
+            //-- Initiat an empty local varable that will contain the crafter's names
+            let crafters = '';
+
+            //-- Get craftable type so that we can match it to a specialization
+            let craftType = zergData.professions.tailoring[item].type;
+
+            //-- Display wowhead link
+            msg.channel.send("<"+zergData.professions.tailoring[item].wowhead+">");
+
+            //-- Get the players who can craft this recipe from the JSON array and assign it to a local var
+            zergData.professions.tailoring[item].players.forEach(player => {
+                //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
+                if (crafters.length == 0) {
+                    crafters = player;
+                } else {
+                    crafters = crafters + ', ' + player;
+                }
+            }); 
+
+            //-- Display the materials required
+            msg.channel.send("**Materials required:** " + zergData.professions.tailoring[item].mats +"\n\n");
+
+            //-- Display who can has this recipe
+            msg.channel.send('**Alchemists**: '+ crafters);
+
+            //-- Get players that have the specialization in this consumable
+            if (zergData.specialization.tailoring[craftType].length > 0) {
+                //-- Initiat an empty local varable that will contain the specialized crafter's names
+                let specializedCrafters = '';
+                
+                //-- Get the players who can specializa in this type from the JSON array and assign it to a local var
+                zergData.specialization.tailoring[craftType].forEach(player => {
+                     //-- Check to see if the local crafters variable is empty, so I know whether to add a comma or not
+                    if (specializedCrafters.length == 0) {
+                        specializedCrafters = player;
+                    } else {
+                        specializedCrafters = specializedCrafters + ', ' + player;
+                    }
+                });
+
+                msg.channel.send('**Players with '+ capitalizeFirstLetter(craftType) + ' Specialization:** ' + specializedCrafters);
+            }
+
+         } else {
+             msg.channel.send('Sorry, the item you\'re looking for is not found. Please make sure you\'re using the item name and not the full recipe name.');
+         }
     }
 
     if (msg.content.startsWith(ALCH_PREFIX)) {
