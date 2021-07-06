@@ -25,7 +25,7 @@ client.once('ready', () => {
 client.on('message', msg => {
 
     if ((msg.content).toLowerCase() === `${PROFS_PREFIX}`) {
-        msg.channel.send('Zerg Inc Professions bot allows you to look up who can make what in the guild.\n\nFor enchanting, use **.ench [Enchant Name]**\nFor blacksmithing, use **.bs [Item Name]**\nFor enchanting, use **.jc [Gem Name]**\nFor enchanting, use **.tailor [Potion Name]**\nFor alchemy, use **.alch [Item Name]**\nFor engineering, use **.eng [Item Name]**\n\nFor example, to look up Mongoose, use .ench mongoose\n\n\nTo submit your what you can make, send Lyles a message on discord to be added to the database.');
+        msg.channel.send('Zerg Inc Professions bot allows you to look up who can make what in the guild.\n\nFor enchanting, use **.ench [Enchant Name]**\nFor blacksmithing, use **.bs [Item Name]**\nFor enchanting, use **.jc [Gem Name]**\nFor enchanting, use **.tailor [Potion Name]**\nFor alchemy, use **.alch [Item Name]**\nFor engineering, use **.eng [Item Name]**\n\nFor example, to look up Mongoose, use .ench enchant weapon - mongoose\n\n\nTo submit your what you can make, send Lyles a message on discord to be added to the database.');
     }
 
     if (msg.content.startsWith(ENCH_PREFIX)) {
