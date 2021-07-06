@@ -10,7 +10,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock",
                     "Schitter"
@@ -69,7 +69,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"
                 ],
@@ -132,7 +132,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"
                 ],
@@ -148,7 +148,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock",
                     "Schitter"
@@ -188,7 +188,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22850/super-rejuvenation-potion",
                 "type": "potion",
                 "players" : [
-                    "Schitter"
+                    "Schitter",
+                    "Cyclades"
                 ],
                 "effect" : "Use: Restores 1650 to 2750 mana and health. (2 Min Cooldown)",
                 "mats" : "Mana Thistle (2), Dreaming Glory, Netherbloom, Imbued Vial"
@@ -224,8 +225,15 @@
                 "wowhead" : "https://tbc.wowhead.com/spell=32765/transmute-earthstorm-diamond",
                 "type": "transmute",
                 "players" : [
-                    "Schitter",
-                    "Synderasis"
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnarb",
+                    "Lisa",
+                    "Alotawarlock",
+                    "Schitter"
                 ],
                 "effect" : "Transmute: Earthstorm Diamond",
                 "mats" : "Deep Peridot (3), Shadow Draenite (3), Golden Draenite (3), Primal Earth (2), Primal Water (2)"
@@ -234,8 +242,15 @@
                 "wowhead" : "https://tbc.wowhead.com/spell=32766/transmute-skyfire-diamond",
                 "type": "transmute",
                 "players" : [
-                    "Schitter",
-                    "Synderasis"
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnarb",
+                    "Lisa",
+                    "Alotawarlock",
+                    "Schitter"
                 ],
                 "effect" : "Transmute: Skyfire Diamond",
                 "mats" : "Blood Garnet (3), Flame Spessarite (3), Azure Moonstone (3), Primal Fire (2), Primal Air (2)"
@@ -244,8 +259,15 @@
                 "wowhead" : "https://tbc.wowhead.com/item=23571/primal-might",
                 "type": "transmute",
                 "players" : [
+                    "Synderasis",
                     "Lials",
-                    "Synderasis"
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnarb",
+                    "Lisa",
+                    "Alotawarlock",
+                    "Schitter"
                 ],
                 "effect" : "Creates a Primal Might",
                 "mats" : "1 Primal Earth, 1 Primal Water, 1 Primal Air, 1 Primal Fire and 1 Primal Mana and uses the daily Transmute cooldown."
@@ -259,7 +281,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"
                 ],
@@ -275,7 +297,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"               
                 ],
@@ -291,7 +313,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"               ],
                 "effect" : "Use: Increases Intellect and Spirit by 30 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
@@ -306,7 +328,7 @@
                     "Raviolis",
                     "Madz",
                     "Cyclades",
-                    "Tdnard",
+                    "Tdnarb",
                     "Lisa",
                     "Alotawarlock"
                 ],
@@ -382,8 +404,14 @@
                 "wowhead" : "https://tbc.wowhead.com/spell=11477/elixir-of-demonslaying",
                 "type": "potion",
                 "players" : [
+                    "Synderasis",
                     "Lials",
-                    "Synderasis"                
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnarb",
+                    "Lisa",
+                    "Alotawarlock"
                 ],
                 "effect" : "Use: Increases attack power by 265 against demons.  Lasts 5 min.    Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Gromsblood, Ghost Mushroom, Crystal Vial"
