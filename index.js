@@ -15,6 +15,9 @@ const ENG_PREFIX = '.eng ';
 const TEST_PREFIX = ".test";
 const ALChTEST_PREFIX = ".alchtest ";
 
+const rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
+const zergData = JSON.parse(rawdata);
+
 client.once('ready', () => {
     console.log('Zerg Inc Professions Bot is Online!');
 });
@@ -29,9 +32,6 @@ client.on('message', msg => {
         const args = msg.content.slice(ENCH_PREFIX.length);
         const item = args.toLowerCase();
         console.log(item);
-
-        let rawdata = fs.readFileSync(path.resolve(__dirname, 'data.json'));
-        let zergData = JSON.parse(rawdata);
 
         //-- Check to see if the item even exists in our JSON file
         if(item in zergData.professions.enchanting){

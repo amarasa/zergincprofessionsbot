@@ -355,7 +355,7 @@
         },
 
         "enchanting" : {
-            "mongoose" : {
+            "enchant weapon - mongoose" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose",
                 "players": [
                     "None"
@@ -363,13 +363,57 @@
                 "effect" : "Permanently enchant a Melee Weapon to occasionally increase Agility by 120 and attack speed slightly.  Requires a level 35 or higher item.",
                 "mats" : "Void Crystal (6), Large Prismatic Shard (10), Greater Planar Essence (8), Arcane Dust (40)"
             },
-            "major defense" : {
+            "enchant bracers - major defense" : {
                 "wowhead" : "https://tbc.wowhead.com/spell=27906/enchant-bracer-major-defense",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Ozzman"
                 ],
                 "effect" : "Permanently enchants bracers to increase your defense rating by 12.  Requires a level 35 or higher item.",
                 "mats" : "Small Prismatic Shard (2), Arcane Dust (10)"
+            },
+            "enchant weapon - major intellect" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22551/formula-enchant-weapon-major-intellect",
+                "players": [
+                    "Ozzman"
+                ],
+                "effect" : "Permanently enchant a melee weapon to grant +30 Intellect.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (2), Greater Planar Essence (10)"
+            },
+            "enchant weapon - major spellpower" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=27975/enchant-weapon-major-spellpower",
+                "players": [
+                    "Ozzman",
+                    "Lylès",
+                    "Elheretic"
+                ],
+                "effect" : "Permanently enchant a melee weapon to increase spell damage and healing by up to 40.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (8), Greater Planar Essence (8)"
+            },
+            "enchant bracers - major spellpower" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=27917/enchant-bracer-spellpower",
+                "players": [
+                    "Lylès",
+                    "Ozzman"
+                ],
+                "effect" : "Permanently enchant bracers to increase spell damage and healing by up to 15.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (6), Primal Fire (6), Primal Water (6)"
+            },
+            "enchant bracers - restore mana prime" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=27913/enchant-bracer-restore-mana-prime",
+                "players": [
+                    "Ozzman"
+                ],
+                "effect" : "Permanently enchants bracers to restore 6 mana every 5 seconds.  Requires a level 35 or higher item.",
+                "mats" : "Greater Planar Essence (8)"
+            },
+            "enchant shield - resistance" : {
+                "wowhead" : "https://tbc.wowhead.com/spell=27947/enchant-shield-resistance",
+                "players": [
+                    "Ozzman"
+                ],
+                "effect" : "Permanently enchant a shield to increase resistance to all magic schools by 5.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (2), Mote of Earth, Mote of Fire, Mote of Air, Mote of Water"
             }
         },
 
