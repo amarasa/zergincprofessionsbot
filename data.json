@@ -169,8 +169,7 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22849/ironshield-potion",
                 "type": "potion",
                 "players" : [
-                    "Schitter",
-                    "Cyclades"
+                    "Schitter"
                 ],
                 "effect" : "Use: Increases armor by 2500 for 2 min. (2 Min Cooldown)",
                 "mats" : "Ancient Lichen (2), Mote of Earth (3), Imbued Vial"
