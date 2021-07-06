@@ -33,7 +33,8 @@
                 "type": "elixir",
                 "players" : [
                     "Schitter",
-                    "Synderasis"
+                    "Synderasis",
+                    "Lials"
                 ],
                 "effect" : "Use: Increases spell damage caused by Shadow, Fire and Frost spells by up to 80 for 2 hrs.  Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Fel Lotus, Mana Thistle (3), Nightmare Vine (7), Imbued Vial"
