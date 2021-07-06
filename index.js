@@ -1,5 +1,5 @@
-//require('dotenv').config();
-//const env = process.env;
+require('dotenv').config();
+const env = process.env;
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
@@ -296,4 +296,4 @@ function capitalizeFirstLetter(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
 
-client.login('ODYwNDk3ODkzNTA5MDM4MTAw.YN8HHQ.DeBQ868nAZGBAAzWjTYprEjktVA');
+client.login(env.BOT_TOKEN);
