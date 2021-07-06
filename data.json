@@ -5,9 +5,15 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22832/super-mana-potion",
                 "type": "potion",
                 "players" : [
+                    "Synderasis",
                     "Lials",
-                    "Schitter",
-                    "Synderasis"
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock",
+                    "Schitter"
                 ],
                 "effect" : "Use: Restores 1800 to 3000 mana. (2 Min Cooldown)",
                 "mats" : "Dreaming Glory (2), Felweed, Imbued Vial"
@@ -16,7 +22,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22839/destruction-potion",
                 "type": "potion",
                 "players" : [
-                    "Lials"
+                    "Lials",
+                    "Tdnarb"
                 ],
                 "effect" : "Use: Increases spell critical chance by 2% and spell damage by 120 for 15 sec. (2 Min Cooldown)",
                 "mats" : "Nightmare Vine (2), Netherbloom, Imbued Vial"
@@ -36,7 +43,8 @@
                 "type": "elixir",
                 "players" : [
                     "Schitter",
-                    "Synderasis"
+                    "Synderasis",
+                    "Lisa"
                 ],
                 "effect" : "Use: Increases mana regeneration by 25 mana per 5 seconds for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Fel Lotus, Mana Thistle (3), Dreaming Glory (7), Imbued Vial"
@@ -45,7 +53,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22854/flask-of-relentless-assault",
                 "type": "elixir",
                 "players" : [
-                    "Schitter"
+                    "Schitter",
+                    "Raviolis"
                 ],
                 "effect" : "Use: Increases attack power by 120 for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Fel Lotus, Mana Thistle (3), Terocone (7), Imbued Vial"
@@ -55,7 +64,14 @@
                 "type": "elixir",
                 "players" : [
                     "Schitter",
-                    "Synderasis"
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"
                 ],
                 "effect" : "Use: Increases frost spell damage by up to 55 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Mote of Water (2), Ancient Lichen, Imbued Vial"
@@ -111,7 +127,15 @@
                 "wowhead" : "https://tbc.wowhead.com/item=32062/elixir-of-major-fortitude",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"
+                ],
                 "effect" : "Use: Increases maximum health by 250 and restores 10 health every 5 seconds for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
                 "mats" : "Ragveil (2), Felweed, Imbued Vial"
             },
@@ -119,9 +143,15 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22834/elixir-of-major-defense",
                 "type": "elixir",
                 "players" : [
+                    "Synderasis",
                     "Lials",
-                    "Schitter",
-                    "Synderasis"
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock",
+                    "Schitter"
                 ],
                 "effect" : "Use: Increases armor by 550 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
                 "mats" : "Ancient Lichen (3), Terocone, Imbued Vial"
@@ -139,7 +169,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22849/ironshield-potion",
                 "type": "potion",
                 "players" : [
-                    "Schitter"
+                    "Schitter",
+                    "Cyclades"
                 ],
                 "effect" : "Use: Increases armor by 2500 for 2 min. (2 Min Cooldown)",
                 "mats" : "Ancient Lichen (2), Mote of Earth (3), Imbued Vial"
@@ -224,7 +255,13 @@
                 "type": "elixir",
                 "players" : [
                     "Synderasis",
-                    "Lials"
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"
                 ],
                 "effect" : "Use: Increases Agility by 25 and critical strike rating by 28 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Mountain Silversage (2), Plaguebloom (2), Crystal Vial"
@@ -233,8 +270,14 @@
                 "wowhead" : "https://tbc.wowhead.com/item=28103/adepts-elixir",
                 "type": "elixir",
                 "players" : [
+                    "Synderasis",
                     "Lials",
-                    "Synderasis"                
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"               
                 ],
                 "effect" : "Use: Increases spell damage and healing by up to 24 and spell critical strike rating by 24 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Dreamfoil, Felweed, Imbued Vial"
@@ -243,7 +286,14 @@
                 "wowhead" : "https://tbc.wowhead.com/item=32067/elixir-of-draenic-wisdom",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"               ],
                 "effect" : "Use: Increases Intellect and Spirit by 30 for 1 hour.  Guardian Elixir. (3 Sec Cooldown)",
                 "mats" : "Felweed, Terocone, Imbued Vial"
             },
@@ -251,7 +301,15 @@
                 "wowhead" : "https://tbc.wowhead.com/item=28102/onslaught-elixir",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis",
+                    "Lials",
+                    "Raviolis",
+                    "Madz",
+                    "Cyclades",
+                    "Tdnard",
+                    "Lisa",
+                    "Alotawarlock"
+                ],
                 "effect" : "Use: Increases attack power by 60 for 1 hour.  Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Mountain Silversage, Felweed, Imbued Vial"
             },
@@ -259,7 +317,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22861/flask-of-blinding-light",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis"
+                ],
                 "effect" : "Use: Increases spell damage caused by Arcane, Holy and Nature spells by up to 80 for 2 hrs.  Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Fel Lotus, Mana Thistle (3), Netherbloom (7), Imbued Vial"
             },
@@ -267,7 +326,9 @@
                 "wowhead" : "https://tbc.wowhead.com/item=13511/flask-of-distilled-wisdom",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis",
+                    "Cyclades"
+                ],
                 "effect" : "Use: Increases Intellect by 65 for 2 hrs. Counts as both a Battle and Guardian elixir. This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Dreamfoil (7), Icecap (3), Black Lotus, Crystal Vial"
             },
@@ -275,7 +336,9 @@
                 "wowhead" : "https://tbc.wowhead.com/item=22851/flask-of-fortification",
                 "type": "elixir",
                 "players" : [
-                    "Synderasis"                ],
+                    "Synderasis",
+                    "Madz"
+                ],
                 "effect" : "Use: Increases maximum health by 500 and defense rating by 10 for 2 hrs. Counts as both a Battle and Guardian elixir.  This effect persists through death. (3 Sec Cooldown)",
                 "mats" : "Fel Lotus, Mana Thistle (3), Ancient Lichen (7), Imbued Vial"
             },
@@ -324,6 +387,15 @@
                 ],
                 "effect" : "Use: Increases attack power by 265 against demons.  Lasts 5 min.    Battle Elixir. (3 Sec Cooldown)",
                 "mats" : "Gromsblood, Ghost Mushroom, Crystal Vial"
+            },
+            "haste potion" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22838/haste-potion",
+                "type": "potion",
+                "players" : [
+                    "Tdnarb"                
+                ],
+                "effect" : "Use: Increases haste rating by 400 for 15 sec. (2 Min Cooldown)",
+                "mats" : "Terocone (2), Netherbloom, Imbued Vial"
             }
         },
         
@@ -815,7 +887,7 @@
                 "Schitter"
             ],
             "potion" : [
-
+                "Tdnarb"
             ],
             "transmute" : [
                 
