@@ -781,6 +781,15 @@
                 "mats" : "Nightseye",
                 "socket": "Matches a Red or Blue Socket."
             },
+            "infused nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24056/glowing-nightseye",
+                "effect" : "+8 Attack Power and +2 Mana every 5 seconds",
+                "players": [
+                    "Lylès"
+                ],
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
             "royal nightseye" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24057/royal-nightseye",
                 "players": [
