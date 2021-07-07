@@ -472,6 +472,22 @@
                 "effect" : "Permanently enchants bracers to increase your defense rating by 12.  Requires a level 35 or higher item.",
                 "mats" : "Small Prismatic Shard (2), Arcane Dust (10)"
             },
+            "enchant weapon - soulfrost" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22561/formula-enchant-weapon-soulfrost",
+                "players": [
+                    "Minicatfish"
+                ],
+                "effect" : "Permanently enchant a Melee Weapon to add up to 54 damage to frost and shadow spells.",
+                "mats" : "Void Crystal (12), Large Prismatic Shard (10), Greater Planar Essence (8), Primal Water (6), Primal Shadow (6)"
+            },
+            "enchant weapon - savagery" : {
+                "wowhead" : "https://tbc.wowhead.com/item=22554/formula-enchant-2h-weapon-savagery",
+                "players": [
+                    "Minicatfish"
+                ],
+                "effect" : "Permanently enchant a Two Handed Melee Weapon to add 70 attack power.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (4), Arcane Dust (40)"
+            },
             "enchant weapon - major intellect" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22551/formula-enchant-weapon-major-intellect",
                 "players": [
@@ -485,7 +501,8 @@
                 "players": [
                     "Ozzman",
                     "Lylès",
-                    "Elheretic"
+                    "Elheretic",
+                    "Minicatfish"
                 ],
                 "effect" : "Permanently enchant a melee weapon to increase spell damage and healing by up to 40.  Requires a level 35 or higher item.",
                 "mats" : "Large Prismatic Shard (8), Greater Planar Essence (8)"
@@ -494,7 +511,9 @@
                 "wowhead" : "https://tbc.wowhead.com/spell=27917/enchant-bracer-spellpower",
                 "players": [
                     "Lylès",
-                    "Ozzman"
+                    "Ozzman",
+                    "Minicatfish",
+                    "Elheretic"
                 ],
                 "effect" : "Permanently enchant bracers to increase spell damage and healing by up to 15.  Requires a level 35 or higher item.",
                 "mats" : "Large Prismatic Shard (6), Primal Fire (6), Primal Water (6)"
@@ -596,7 +615,8 @@
             "lustrous star of elune" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24037/lustrous-star-of-elune",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Lunch"
                 ],
                 "effect" : "+3 Mana every 5 seconds",
                 "mats" : "Star of Elune",
@@ -616,7 +636,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24035/sparkling-star-of-elune",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Spirit",
                 "mats" : "Star of Elune",
@@ -643,9 +664,19 @@
             "radiant talasite" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24066/radiant-talasite",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Lunch"
                 ],
                 "effect" : "+4 Spell Critical Rating and +5 Spell Penetration",
+                "mats" : "Talasite",
+                "socket": "Matches a Yellow or Blue Socket."
+            },
+            "steady talasite" : {
+                "wowhead" : "https://tbc.wowhead.com/item=33782/steady-talasite",
+                "players": [
+                    "Lunch"
+                ],
+                "effect" : "+4 Resilience Rating and +6 Stamina",
                 "mats" : "Talasite",
                 "socket": "Matches a Yellow or Blue Socket."
             },
@@ -719,7 +750,8 @@
             "luminous noble topaz" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24060/luminous-noble-topaz",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Lunch"
                 ],
                 "effect" : "+9 Healing +3 Spell Damage and +4 Intellect",
                 "mats" : "Noble Topaz",
@@ -728,7 +760,8 @@
             "glinting noble topaz" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24061/glinting-noble-topaz",
                 "players": [
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+4 Hit Rating and +4 Agility",
                 "mats" : "Noble Topaz",
@@ -746,7 +779,8 @@
             "potent noble topaz" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24059/potent-noble-topaz",
                 "players": [
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+4 Spell Critical Rating and +5 Spell Damage",
                 "mats" : "Noble Topaz",
@@ -765,7 +799,8 @@
             "wicked noble topaz" : {
                 "wowhead" : "https://tbc.wowhead.com/item=31868/wicked-noble-topaz",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Lunch"
                 ],
                 "effect" : "+4 Critical Strike Rating and +8 Attack Power",
                 "mats" : "Noble Topaz",
@@ -785,7 +820,17 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24056/glowing-nightseye",
                 "effect" : "+8 Attack Power and +2 Mana every 5 seconds",
                 "players": [
-                    "Lylès"
+                    "Lylès",
+                    "Lunch"
+                ],
+                "mats" : "Nightseye",
+                "socket": "Matches a Red or Blue Socket."
+            },
+            "balanced nightseye" : {
+                "wowhead" : "https://tbc.wowhead.com/item=31863/balanced-nightseye",
+                "effect" : "+8 Attack Power and +6 Stamina",
+                "players": [
+                    "Lunch"
                 ],
                 "mats" : "Nightseye",
                 "socket": "Matches a Red or Blue Socket."
@@ -804,7 +849,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24055/shifting-nightseye",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+4 Agility and +6 Stamina",
                 "mats" : "Nightseye",
@@ -823,7 +869,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24028/delicate-living-ruby",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Agility",
                 "mats" : "Living Ruby",
@@ -832,7 +879,8 @@
             "bold living ruby" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24027/bold-living-ruby",
                 "players": [
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Strength",
                 "mats" : "Living Ruby",
@@ -841,9 +889,19 @@
             "runed living ruby" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24030/runed-living-ruby",
                 "players": [
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+9 Spell Damage",
+                "mats" : "Living Ruby",
+                "socket": "Matches a Red Socket."
+            },
+            "teardrop living ruby" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24029/teardrop-living-ruby",
+                "players": [
+                    "Lunch"
+                ],
+                "effect" : "+18 Healing and +6 Spell Damage",
                 "mats" : "Living Ruby",
                 "socket": "Matches a Red Socket."
             },
@@ -869,7 +927,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=31861/great-dawnstone",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Spell Hit Rating",
                 "mats" : "Dawnstone",
@@ -879,7 +938,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24053/mystic-dawnstone",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Resillience Rating",
                 "mats" : "Dawnstone",
@@ -889,7 +949,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24051/rigid-dawnstone",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Hit Rating",
                 "mats" : "Dawnstone",
@@ -908,7 +969,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24052/thick-dawnstone",
                 "players": [
                     "Lylès",
-                    "Orcbar"
+                    "Orcbar",
+                    "Lunch"
                 ],
                 "effect" : "+8 Defense Rating",
                 "mats" : "Dawnstone",
