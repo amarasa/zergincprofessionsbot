@@ -483,7 +483,7 @@
             "enchant gloves - major spellpower" : {
                 "wowhead" : "https://tbc.wowhead.com/item=28272/formula-enchant-gloves-major-spellpower",
                 "players": [
-                    "Lylès",
+                    "Lylès"
                 ],
                 "effect" : "Permanently enchant gloves to increase damage and healing by up to 20.  Requires a level 35 or higher item.",
                 "mats" : "Greater Planar Essence (6), Large Prismatic Shard (6), Primal Mana (6)"
