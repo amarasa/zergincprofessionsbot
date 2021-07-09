@@ -432,7 +432,8 @@
                 "wowhead" : "https://tbc.wowhead.com/item=24250/bracers-of-havok",
                 "type": "None",
                 "players" : [
-                    "Schitter"
+                    "Schitter",
+                    "Cyclades"
                 ],
                 "mats" : "4 Bolt of Imbued Netherweave, 4 Primal Earth, and 4 Primal Shadow."
             },
@@ -451,6 +452,22 @@
                     "Schitter"
                 ],
                 "mats" : "Bolt of Imbued Netherweave (6), Primal Earth (6)"
+            },
+            "vengeance wrap" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24259/vengeance-wrap",
+                "type": "None",
+                "players" : [
+                    "Cyclades"
+                ],
+                "mats" : "Shadowcloth (10), Primal Air (14), Primal Nether"
+            },
+            "whitemend hood" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24264/whitemend-hood",
+                "type": "None",
+                "players" : [
+                    "Cyclades"
+                ],
+                "mats" : "Primal Mooncloth (10), Primal Might (5), Primal Nether"
             }
         },
 
