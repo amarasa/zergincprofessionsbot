@@ -455,7 +455,7 @@
             },
             "vengeance wrap" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24259/vengeance-wrap",
-                "type": "None",
+                "type": "shadowcloth",
                 "players" : [
                     "Cyclades"
                 ],
@@ -463,11 +463,28 @@
             },
             "whitemend hood" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24264/whitemend-hood",
-                "type": "None",
+                "type": "mooncloth",
                 "players" : [
-                    "Cyclades"
+                    "Cyclades",
+                    "Shaynee"
                 ],
                 "mats" : "Primal Mooncloth (10), Primal Might (5), Primal Nether"
+            },
+            "girdle of ruination" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24256/girdle-of-ruination",
+                "type": "shadoweave",
+                "players" : [
+                    "Shaynee"
+                ],
+                "mats" : "Shadowcloth (10), Primal Fire (16), Primal Nether"
+            },
+            "spellstrike pants" : {
+                "wowhead" : "https://tbc.wowhead.com/item=24262/spellstrike-pants",
+                "type": "spellfire",
+                "players" : [
+                    "Shaynee"
+                ],
+                "mats" : "Spellcloth (10), Primal Might (5), Primal Nether"
             }
         },
 
