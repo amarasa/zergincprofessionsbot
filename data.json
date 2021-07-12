@@ -973,7 +973,8 @@
             "teardrop living ruby" : {
                 "wowhead" : "https://tbc.wowhead.com/item=24029/teardrop-living-ruby",
                 "players": [
-                    "Lunch"
+                    "Lunch",
+                    "Orcbar"
                 ],
                 "effect" : "+18 Healing and +6 Spell Damage",
                 "mats" : "Living Ruby",
