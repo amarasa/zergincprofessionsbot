@@ -489,6 +489,14 @@
         },
 
         "enchanting" : {
+            "enchant boots - boar's speed" : {
+                "wowhead" : "https://tbc.wowhead.com/item=28280/formula-enchant-boots-boars-speed",
+                "players": [
+                    "Lylès"
+                ],
+                "effect" : "Permanently enchant boots to give a minor movement speed increase and 9 Stamina.  Requires a level 35 or higher item.",
+                "mats" : "Large Prismatic Shard (8), Primal Earth (8)"
+            },
             "enchant weapon - mongoose" : {
                 "wowhead" : "https://tbc.wowhead.com/item=22559/formula-enchant-weapon-mongoose",
                 "players": [
