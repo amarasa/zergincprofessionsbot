@@ -129,9 +129,9 @@ client.on('message', msg => {
     }
 
     if (msg.content.startsWith(HELP_PREFIX)) {
-        msg.channel.send('Use **.craft** followed by a search. This can be anything from an exact recipe name, to a partial recipe name or even certain stats. If you want to see what gems contain stamina, you can say: .craft stamina.\n\nUse: **.player** followed by a player name to get all craftables by that player.\n\nHave a craftable you want to add? Ping an <@&' + 865725994488954950 + '> for help.');
+        msg.channel.send('Use **.craft** followed by a search. This can be anything from an exact recipe name, to a partial recipe name or even certain stats. If you want to see what gems contain stamina, you can say: .craft stamina.\n\nUse: **.player** followed by a player name to get all craftables by that player.');
     }
-//646577019013824512
+//646577019013824512 - officer role ID
     if (MAINT_MODE == true) {
         if (msg.content.startsWith(PROFS_PREFIX) ||
         msg.content.startsWith(ENCH_PREFIX)||
