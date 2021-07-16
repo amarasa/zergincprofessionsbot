@@ -73,7 +73,7 @@ client.on('message', msg => {
     if (msg.content.startsWith(PLAYER_PREFIX)) {
         const args = msg.content.slice(PLAYER_PREFIX.length);
         console.log(args);
-        axios.get('http://discord.loc/?player='+args)
+        axios.get(env.DOMAIN+'?player='+args)
             .then(function (response) {
                 let term = '';
                 if ( response.data.results == 1) {
