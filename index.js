@@ -24,7 +24,7 @@ const zergData = JSON.parse(rawdata);
 
 client.once('ready', () => {
     console.log('Zerg Inc Professions Bot is Online!');
-    msg.channel.send(':wave: I\'m back online and better than ever! To see my new commands, use the .help command.');
+   // msg.channel.send(':wave: I\'m back online and better than ever! To see my new commands, use the .help command.');
 });
 
 client.on('message', msg => {
